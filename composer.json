@@ -1,0 +1,12 @@
+{
+    "name": "ribot/composer",
+    "authors": [
+        {
+            "name": "frédéric ribot",
+            "email": "frederic.ribot.pro@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    }
+}

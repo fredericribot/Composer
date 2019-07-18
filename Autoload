@@ -1,0 +1,16 @@
+<?php
+
+
+class Autoloader
+{
+    static function register(){
+
+        spl_autoload_register(array(__CLASS__,'my_autoloader'));
+    }
+
+
+    static function my_autoloader($Hello)
+    {
+        require 'App/Wcs' . $Hello . '.php';
+    }
+}
